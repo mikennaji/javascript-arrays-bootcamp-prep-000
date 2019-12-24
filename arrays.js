@@ -20,7 +20,7 @@ function removeElementFromEndOfArray(arrary,n){
 
 function removeElementFromBeginningOfArray(arrary,n){
     var newarray = [...arrary]
-    newarray.unshift(n)
+    newarray.shift(n)
     return(newarray)
 }
 
