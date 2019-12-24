@@ -14,7 +14,7 @@ var chocolateBars = ['snickers', 'hundred grand','kitkat','skittles']
 
 function removeElementFromEndOfArray(arrary,n){
     var newarrary = [...arrary]
-    newarray.pop(n)
+    newarrary.pop(n)
     return(newarrary)
 }
 
@@ -28,6 +28,7 @@ function destructivelyAddElementToEndOfArray(arrary,element){
     arrary.push(element)
     return(arrary)
 }
+ 
 function destructivelyRemoveElementFromEndOfArray(array,element){
     array.pop(element)
     return(array)
